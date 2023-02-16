@@ -6,19 +6,21 @@ import Menu from './Components/Menu';
 import Clientes from './Paginas/Clientes';
 import Veiculos from './Paginas/Veiculos';
 import Estacionamento from './Paginas/Estacionamento';
+import Logon from './Paginas/Logon';
 
 function App() {
   return (
   <BrowserRouter>
   
-
-  <Menu/>
   <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/estacionamento" element={<Estacionamento />} />
-    <Route path="/clientes" element={<Clientes />} />
-    <Route path="/veiculos" element={<Veiculos />} />
-
+     
+  <Route path="/" element={ <Logon />} />
+  <Route path='/est' element={  <Menu/>}>
+    <Route path="/est/home" element={<Home />}  />
+    <Route path="/est/estacionamento" element={<Estacionamento />} />
+    <Route path="/est/clientes" element={<Clientes />} />
+    <Route path="/est/veiculos" element={<Veiculos />} />
+    </Route>
   </Routes>
   
   </BrowserRouter>

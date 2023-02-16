@@ -1,0 +1,35 @@
+.logon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    background: #ffff;
+}
+.logon h1
+    {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+
+    }
+
+.btnentrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    background: #1E617A;
+}
+
+.btnentrar a{
+text-decoration: none;
+text-transform: uppercase;
+font-size: 1.4rem;
+color: white;
+}
