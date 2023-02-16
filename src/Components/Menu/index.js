@@ -13,11 +13,11 @@ export default function Menu() {
 <img src={logo} alt="logo" />
 <h2 className={styles.title}>Estacionamento</h2>
     </section>
-      <MenuLink to={"/est/"} className={styles.menulink}>Home</MenuLink>
+      <MenuLink to={"/est/home"} className={styles.menulink}>Home</MenuLink>
       <MenuLink to={"/est/estacionamento"} className={styles.menulink}>Estacionamento</MenuLink>
       <MenuLink to={"/est/clientes"} className={styles.menulink}>Clientes</MenuLink>
       <MenuLink to={"/est/Veiculos"} className={styles.menulink}>Veiculos</MenuLink>
-      <MenuLink to={"/"} className={styles.menulink}>Sair</MenuLink>
+      <MenuLink to={"/"} className={styles.sair}>Sair</MenuLink>
       
     </nav>
 
