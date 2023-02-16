@@ -1,0 +1,22 @@
+.navlink{
+    font-size: 1.2rem;
+    color:#F5F5F5;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 4px;
+    width: 200px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+ .divlink {
+    width: 200px;
+    text-align: center;
+    height: auto;
+    
+}
+
+.linkDestacado{
+    color:black;
+    background: white;
+}

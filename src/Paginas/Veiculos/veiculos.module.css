@@ -1,0 +1,15 @@
+.veiculos {
+    padding: 10px 10px;
+    margin-left: 208px;
+    width: 85%;
+    height: 96vh;
+
+}
+
+.veiculos h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: inter;
+    letter-spacing: 3px;
+}

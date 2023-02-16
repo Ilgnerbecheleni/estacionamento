@@ -1,0 +1,27 @@
+.menu {
+  width: 208px;
+  height: 100%;
+  background-color: #71818A;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+
+.menulink {
+  width: 200px;
+
+}
+
+.title {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
